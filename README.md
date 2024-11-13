@@ -1,0 +1,1 @@
+This projects classifies the traffic onto a server into legitimate and illegitimate traffic, primrarily DDoS attacks when it is illegitimate. It uses supervised learning to differentiate between the two, the datasets used contains packet captures of real-world DDoS attacks and legitimate traffic. A basic off-the-shelf ML model is used for classification.
