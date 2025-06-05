@@ -1,8 +1,8 @@
 from scapy.all import rdpcap
 import pandas as pd
 
-packets_path = "C:\SIH Classification\SIH Datasets\DDoS\PCAPs\\amp.TCP.reflection.SYNACK.pcap"
-packets = rdpcap("C:\SIH Classification\SIH Datasets\DDoS\PCAPs\\amp.TCP.reflection.SYNACK.pcap".replace("\\", "\\\\"))
+packets_path = "path/to/pacap_file"
+packets = rdpcap(packets_path.replace("\\", "\\\\"))
 
 def extract_features(packets: str) -> dict:
 
